@@ -116,15 +116,11 @@
         <groupId>com.google.cloud.tools</groupId>
         <artifactId>jib-maven-plugin</artifactId>
         <version>1.3.0</version>
-        <configuration>
+        <!-- configuration>
           <to>
-            <image>docker.io/edewit/spring-petclinic</image>
-            <auth>
-              <username>${env.REGISTRY_USERNAME}</username>
-              <password>${env.REGISTRY_PASSWORD}</password>
-            </auth>
+            <image>myimage</image>
           </to>
-        </configuration>
+        </configuration -->
       </plugin>
       <plugin>
         <groupId>org.springframework.boot</groupId>
